@@ -1,7 +1,7 @@
 <?php
 function decifrar ($caracter , $qtd_casa)
 {
-    $temp = ord($caracter );//converte caractere em codigo ascii
+    $temp = ord($caracter );//converte caractere em codigo ascii teste
     $temp = $temp - $qtd_casa;//realiza descriptografia 
     if ($temp + $qtd_casa == 32)return " ";//resolve o espaço " "
     if ($temp + $qtd_casa == 46)return ".";//resolve o "."  
