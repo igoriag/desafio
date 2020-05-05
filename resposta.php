@@ -34,7 +34,7 @@ $fp = fopen('answer.json', 'w'); fwrite($fp, json_encode($dados, JSON_PRETTY_PRI
 
 ?>
 
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -54,5 +54,5 @@ $fp = fopen('answer.json', 'w'); fwrite($fp, json_encode($dados, JSON_PRETTY_PRI
         <input type="submit" value="Submit">
     </form>
 </body>
-</html>
+</html> -->
 
