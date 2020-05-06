@@ -32,6 +32,8 @@ $fp = fopen('cifrado.json', 'w'); fwrite($fp, json_encode($dados, JSON_PRETTY_PR
 $dados -> resumo_criptografico = sha1($frase_decifrada);//atualiza Array
 $fp = fopen('answer.json', 'w'); fwrite($fp, json_encode($dados, JSON_PRETTY_PRINT)); // Salva novo arquivo JSON cifrado
 
+echo $frase_decifrada;
+
 ?>
 
 <!-- <!DOCTYPE html>
